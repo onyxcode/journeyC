@@ -40,5 +40,6 @@ else:
         # Makes binary executable
         os.system(f"chmod +x {day}/{output}")
         # Runs newly created binary
+        print("------------C Script Output------------\n")
         os.system(f"./{day}/{output}")
-        print("\n")
+        print("\n--------------End of Output------------")
