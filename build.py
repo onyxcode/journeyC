@@ -36,7 +36,7 @@ else:
         exit(1)
     else:
         # Builds binary from C file
-        os.system(f"gcc {day}/{file} -o {day}/{output}")
+        os.system(f"gcc {day}/{file} -Wall -Wextra -pedantic -o {day}/{output}")
         # Makes binary executable
         os.system(f"chmod +x {day}/{output}")
         # Runs newly created binary
