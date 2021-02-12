@@ -29,4 +29,6 @@ int main() {
     gets(usersname);
     printf("Your name is %s.\n", usersname);
     printf("By using the gets() function, we are able to get strings with spaces.\n");
+
+    return 0;
 }

@@ -72,4 +72,6 @@ int main() {
     int a = 1, b = 2;
     printf("a: %d\nb: %d\n", a, b);
     printf("Bytes allocated for a: %d\nBytes allocated for b: %d\n", sizeof(a), sizeof(b));
+
+    return 0;
 }
